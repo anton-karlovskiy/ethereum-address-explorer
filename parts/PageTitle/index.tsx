@@ -7,7 +7,10 @@ const PageTitle = ({
   return (
     <h1
       className={clsx(
-        'text-5xl',
+        'text-2xl',
+        'text-center',
+        'sm:text-left',
+        'sm:text-5xl',
         'font-bold',
         'text-fiord-800',
         className

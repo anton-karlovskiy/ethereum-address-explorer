@@ -15,14 +15,14 @@ const CustomExternalLink = ({
       className={clsx(
         'inline-flex',
         'items-center',
-        'space-x-0.5',
+        'space-x-1',
         className
       )}
       target='_blank'
       rel='noopener noreferrer'
       {...rest}>
       <span>{children}</span>
-      <ExternalLinkMark className='text-black/50' />
+      <ExternalLinkMark className='text-black' />
     </CustomAnchorLink>
   );
 };

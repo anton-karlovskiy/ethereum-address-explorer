@@ -48,12 +48,11 @@ const AppBar = ({
       {({ open }) => (
         <nav
           className={clsx(
-            // This CSS is only necessary on desktop view
-            'sm:fixed',
-            'sm:top-0',
-            'sm:right-0',
-            'sm:left-0',
-            'sm:z-customAppBar'
+            'fixed',
+            'top-0',
+            'right-0',
+            'left-0',
+            'z-customAppBar'
           )}>
           <div
             className={clsx(
@@ -119,37 +118,39 @@ const AppBar = ({
                 </div>
               </div>
               {/* Mobile menu button */}
-              <Disclosure.Button
-                className={clsx(
-                  'sm:hidden',
-                  'inline-flex',
-                  'items-center',
-                  'justify-center',
-                  'p-2',
-                  'rounded-md',
-                  'focus:outline-none',
-                  'focus:ring-2',
-                  'focus:ring-inset'
-                )}>
-                <span className='sr-only'>Open main menu</span>
-                {open ? (
-                  <XMarkIcon
-                    className={clsx(
-                      'block',
-                      'h-8',
-                      'w-8'
-                    )}
-                    aria-hidden='true' />
-                ) : (
-                  <Bars3Icon
-                    className={clsx(
-                      'block',
-                      'h-8',
-                      'w-8'
-                    )}
-                    aria-hidden='true' />
-                )}
-              </Disclosure.Button>
+              {RESOURCES.length > 0 && (
+                <Disclosure.Button
+                  className={clsx(
+                    'sm:hidden',
+                    'inline-flex',
+                    'items-center',
+                    'justify-center',
+                    'p-2',
+                    'rounded-md',
+                    'focus:outline-none',
+                    'focus:ring-2',
+                    'focus:ring-inset'
+                  )}>
+                  <span className='sr-only'>Open main menu</span>
+                  {open ? (
+                    <XMarkIcon
+                      className={clsx(
+                        'block',
+                        'h-8',
+                        'w-8'
+                      )}
+                      aria-hidden='true' />
+                  ) : (
+                    <Bars3Icon
+                      className={clsx(
+                        'block',
+                        'h-8',
+                        'w-8'
+                      )}
+                      aria-hidden='true' />
+                  )}
+                </Disclosure.Button>
+              )}
             </div>
           </div>
           <Disclosure.Panel className='sm:hidden'>
