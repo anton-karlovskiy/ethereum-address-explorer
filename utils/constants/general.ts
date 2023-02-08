@@ -1,0 +1,6 @@
+// TODO: get it from an input UI
+const ETHEREUM_ADDRESS = '0x4336Eb76E1ADa43b02d933Ac40499C584f1D60c9';
+
+export {
+  ETHEREUM_ADDRESS
+};

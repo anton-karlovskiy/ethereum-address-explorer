@@ -24,4 +24,7 @@ yarn start
 
 ## TODOs
 
-- Upgrade Next.js to v13.x
+- Upgrade Next.js to v13.x.
+- Prepare notes for approaches e.g. responsive UI, performance optimization by parallelizing API calls.
+- Prepare notes for nice-to-have things.
+  * pagination for displaying a lot of tokens

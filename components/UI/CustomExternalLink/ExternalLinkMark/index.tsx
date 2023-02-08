@@ -1,9 +1,9 @@
-import LinkIcon from 'assets/images/icons/link.svg';
+import ArrowTopRightOnSquareIcon from 'assets/images/icons/arrow-top-right-on-square.svg';
 
 const ExternalLinkMark = (props: React.ComponentPropsWithRef<'svg'>) => (
-  <LinkIcon
-    width={12}
-    height={13}
+  <ArrowTopRightOnSquareIcon
+    width={16}
+    height={16}
     {...props} />
 );
 
