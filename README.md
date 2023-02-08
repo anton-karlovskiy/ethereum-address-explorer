@@ -8,6 +8,8 @@
 - `husky` & `lint-staged`
 - `tailwindcss`
 - `storybook`
+- `ethers`
+- `alchemy-sdk`
 
 ## Getting the project up and running
 
