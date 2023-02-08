@@ -28,6 +28,7 @@ interface Props {
   totalValueInUSD: number;
 }
 
+// TODO: display token logos
 const PortfolioTable = ({
   tokens,
   totalValueInUSD

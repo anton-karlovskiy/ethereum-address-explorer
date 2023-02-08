@@ -98,6 +98,7 @@ module.exports = {
     }
   },
   plugins: [
-    require('@tailwindcss/line-clamp') // MEMO: inspired by https://tailwindcss.com/docs/plugins#line-clamp
+    require('@tailwindcss/line-clamp'), // MEMO: inspired by https://tailwindcss.com/docs/plugins#line-clamp
+    require('@tailwindcss/forms')
   ]
 };
