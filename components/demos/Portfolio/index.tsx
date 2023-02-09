@@ -9,12 +9,13 @@ import clsx from 'clsx';
 import PortfolioHeader from './PortfolioHeader';
 import PortfolioForm from './PortfolioForm';
 import PortfolioTable from './PortfolioTable';
+import EllipsisLoader from 'components/EllipsisLoader';
 import ErrorFallback from 'components/ErrorFallback';
 import { PORTFOLIO_API_URL_PREFIX } from 'config/links';
 import { Token } from 'types/tokens';
 import type { VercelAPIResponse } from 'types/general.d';
 
-const PortfolioUI = () => {
+const Portfolio = () => {
   const [ethereumAccountAddress, setEthereumAccountAddress] = React.useState<string>();
 
   const portfolioApiUrl = `${PORTFOLIO_API_URL_PREFIX}/${ethereumAccountAddress}`;
@@ -58,8 +59,13 @@ const PortfolioUI = () => {
       <>
         {isInitialLoading ? (
           // TODO: display a skeleton UI to avoid layout shifting
-          // TODO: display a loading spinner at least
-          <div>Loading...</div>
+          <div
+            className={clsx(
+              'flex',
+              'justify-center'
+            )}>
+            <EllipsisLoader dotClassName='bg-green-500' />
+          </div>
         ) : (
           <>
             {data && ethereumAccountAddress ? (
@@ -90,7 +96,7 @@ const PortfolioUI = () => {
   );
 };
 
-export default withErrorBoundary(PortfolioUI, {
+export default withErrorBoundary(Portfolio, {
   FallbackComponent: ErrorFallback,
   onReset: () => {
     window.location.reload();

@@ -7,6 +7,7 @@ Task: https://gist.github.com/0xAsimetriq/36d23603807ecf03be1387ebaf2e7692
 - create-next-app
 - TypeScript
 - `react-hook-form`
+- `react-error-boundary`
 - ESLint (`eslint-config-google`)
 - `husky` & `lint-staged`
 - `tailwindcss`

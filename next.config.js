@@ -16,8 +16,8 @@ const nextConfig = {
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: 'default-src \'self\'; script-src \'none\'; sandbox;',
     domains: [
-      'dl.airtable.com',
-      'v5.airtableusercontent.com'
+      'static.alchemyapi.io',
+      'token-icons.s3.amazonaws.com'
     ]
   }
 };

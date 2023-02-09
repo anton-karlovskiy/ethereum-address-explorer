@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import Image from 'next/image';
 
 import CustomTable, {
   CustomThead,
@@ -28,7 +29,6 @@ interface Props {
   totalValueInUSD: number;
 }
 
-// TODO: display token logos
 const PortfolioTable = ({
   tokens,
   totalValueInUSD
@@ -66,15 +66,30 @@ const PortfolioTable = ({
 
           return (
             <CustomTr key={item.address + index}>
-              <CustomTd>
+              <CustomTd
+                className={clsx(
+                  'flex',
+                  'items-center'
+                )}>
                 <span
                   className={clsx(
-                    'text-black',
-                    'block',
-                    'text-right',
-                    'md:inline'
+                    'flex',
+                    'items-center',
+                    'justify-end',
+                    'space-x-2',
+                    'md:inline-flex'
                   )}>
-                  {item.symbol}
+                  <Image
+                    alt={item.name}
+                    src={item.logo}
+                    height={24}
+                    width={24} />
+                  <span
+                    className={clsx(
+                      'text-black'
+                    )}>
+                    {item.symbol}
+                  </span>
                 </span>
                 <span
                   className={clsx(
