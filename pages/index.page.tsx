@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import PageTitle from 'parts/PageTitle';
 import PageLayoutWrapper from 'parts/PageLayoutWrapper';
 import PageMainContentWrapper from 'parts/PageMainContentWrapper';
-import PortfolioUI from 'components/Portfolio';
+import PortfolioUI from 'components/demos/Portfolio';
 import {
   LAYOUT_SIDE_PADDING_CLASSES,
   PAGE_MAIN_CONTENT_WIDTH_CLASSES

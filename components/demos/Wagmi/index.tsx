@@ -9,7 +9,7 @@ import clsx from 'clsx';
 
 import BasicButton from 'components/buttons/BasicButton';
 
-const WagmiDemo = () => {
+const Wagmi = () => {
   const {
     address,
     connector,
@@ -81,4 +81,4 @@ const WagmiDemo = () => {
   );
 };
 
-export default WagmiDemo;
+export default Wagmi;
