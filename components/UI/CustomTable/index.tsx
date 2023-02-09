@@ -41,7 +41,7 @@ const CustomTr = ({
       'space-y-2',
       'md:space-y-0',
       'border-b',
-      'border-[#d9d9d9]', // TODO: hardcoded
+      'border-gray-200',
       className
     )}
     {...rest} />

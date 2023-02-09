@@ -3,18 +3,19 @@ import clsx from 'clsx';
 import CustomExternalLink from 'components/UI/CustomExternalLink';
 import { ETHERSCAN_URL_PREFIX } from 'config/links';
 import { usdFormatInstance } from 'utils/helpers/format';
-import { ETHEREUM_ADDRESS } from 'utils/constants/general';
 
 interface Props {
   totalValueInUSD: number;
+  ethereumAccountAddress: string;
 }
 
 const PortfolioHeader = ({
-  totalValueInUSD
+  totalValueInUSD,
+  ethereumAccountAddress
 }: Props) => {
   const totalValueInUSDLabel = `Total (USD): ${usdFormatInstance.format(totalValueInUSD)}`;
 
-  const etherscanLink = `${ETHERSCAN_URL_PREFIX}/address/${ETHEREUM_ADDRESS}#tokentxns`;
+  const etherscanLink = `${ETHERSCAN_URL_PREFIX}/address/${ethereumAccountAddress}#tokentxns`;
 
   return (
     <div

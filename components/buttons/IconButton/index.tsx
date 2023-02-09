@@ -25,8 +25,8 @@ const IconButton = React.forwardRef<Ref, Props>(({
       className={clsx(
         'focus:outline-none',
         'focus:ring-1',
-        'focus:border-blue-300', // TODO: update with a branding color
-        'focus:ring-blue-200', // TODO: update with a branding color
+        'focus:border-blue-300',
+        'focus:ring-blue-200',
         'focus:ring-opacity-50',
 
         'rounded-full',
