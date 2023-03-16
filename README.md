@@ -42,3 +42,6 @@ yarn start
 - Prepare notes for nice-to-have things.
   * pagination for displaying a lot of tokens (SUGGESTION)
   * Favicon and open graph images (SUGGESTION)
+
+app.smartxwap TODOs
+- 
