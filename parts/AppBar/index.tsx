@@ -9,12 +9,17 @@ import clsx from 'clsx';
 import BlockchainLogo from 'components/BlockchainLogo';
 import CustomRouterLink from 'components/UI/CustomRouterLink';
 import { LAYOUT_SIDE_PADDING_CLASSES } from 'utils/constants/styles';
+import { PAGES } from 'utils/constants/links';
 
-// TODO: not used for now
 const RESOURCES: Array<{
   title: string;
   link: string;
-}> = [];
+}> = [
+  {
+    title: 'Portfolio',
+    link: PAGES.ETHEREUM_ADDRESS_EXPLORER
+  }
+];
 
 interface Props extends React.ComponentPropsWithRef<'div'> {
   appBarHeight: number;

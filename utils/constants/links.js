@@ -7,7 +7,8 @@ const QUERY_PARAMETERS = Object.freeze({
 });
 
 const PAGES = Object.freeze({
-  HOME: '/'
+  HOME: '/',
+  ETHEREUM_ADDRESS_EXPLORER: '/ethereum-address-explorer'
 });
 
 module.exports = {
