@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import clsx from 'clsx';
 
+import LiFiMechanism from './LiFiMechanism';
 import PageTitle from 'parts/PageTitle';
 import PageLayoutWrapper from 'parts/PageLayoutWrapper';
 import PageMainContentWrapper from 'parts/PageMainContentWrapper';
@@ -19,6 +20,7 @@ const EthereumAddressExplorer: NextPage = () => {
           PAGE_MAIN_CONTENT_WIDTH_CLASSES
         )}>
         <PageTitle>Smart Xwap</PageTitle>
+        <LiFiMechanism />
       </PageMainContentWrapper>
     </PageLayoutWrapper>
   );
