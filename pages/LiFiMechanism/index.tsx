@@ -44,7 +44,7 @@ const LiFiMechanism = () => {
         //       decimals: 18,
         //       chainId: 1,
         //       name: 'SmartXwap',
-        //       logoURI: '/featured-token-logo.png'
+        //       logoURI: '/images/featured-token-logo.png'
         //     }
         //   ]
         // }, // MEMO: display for a launch show

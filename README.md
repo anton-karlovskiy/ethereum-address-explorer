@@ -45,9 +45,10 @@ yarn start
 
 app.smartxwap TODOs
 Before
+- ~~Set the logo.~~
 - Manifest set-up
-- Improve the mobile UI.
-- Improve the background (e.g. gradient or SVG)
+- ~~Improve the mobile UI.~~
+- ~~Improve the background (e.g. gradient or SVG)~~
 - Add socials.
 - Add https://www.bitdao.io hero text animation.
 Ongoing

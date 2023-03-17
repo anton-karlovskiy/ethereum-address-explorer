@@ -36,7 +36,7 @@ class MyDocument extends Document {
             href='https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap'
             rel='stylesheet' /> */}
         </Head>
-        <body>
+        <body className='bg-[#f0f4f5]'>
           <Main />
           <NextScript />
         </body>

@@ -6,7 +6,7 @@ import {
 } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 
-import BlockchainLogo from 'components/BlockchainLogo';
+import Logo from 'components/Logo';
 import CustomRouterLink from 'components/UI/CustomRouterLink';
 import { LAYOUT_SIDE_PADDING_CLASSES } from 'utils/constants/styles';
 import { PAGES } from 'utils/constants/links';
@@ -103,7 +103,7 @@ const AppBar = ({
                   'items-center',
                   'sm:w-full'
                 )}>
-                <BlockchainLogo activeClassName='' />
+                <Logo activeClassName='' />
                 <div
                   className={clsx(
                     'hidden',

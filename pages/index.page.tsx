@@ -15,7 +15,7 @@ const EthereumAddressExplorer: NextPage = () => {
   return (
     <PageLayoutWrapper>
       <Banner>
-        <PageTitle>SmartXwap</PageTitle>
+        <PageTitle>Xwap</PageTitle>
       </Banner>
       <PageMainContentWrapper
         className={clsx(
