@@ -57,7 +57,8 @@ const AppBar = ({
             'top-0',
             'right-0',
             'left-0',
-            'z-customAppBar'
+            'z-customAppBar',
+            'bg-white'
           )}>
           <div
             className={clsx(
@@ -113,6 +114,7 @@ const AppBar = ({
                   {RESOURCES.map(item => {
                     return (
                       <CustomRouterLink
+                        className='font-bold'
                         activeClassName=''
                         key={item.title}
                         href={item.link}>
@@ -168,6 +170,12 @@ const AppBar = ({
               {RESOURCES.map(item => {
                 return (
                   <CustomRouterLink
+                    className={clsx(
+                      '!px-4',
+                      '!py-3',
+                      'font-bold',
+                      'block'
+                    )}
                     activeClassName=''
                     key={item.title}
                     href={item.link}>
