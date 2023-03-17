@@ -8,7 +8,8 @@ const QUERY_PARAMETERS = Object.freeze({
 
 const PAGES = Object.freeze({
   HOME: '/',
-  EXPLORER: '/explorer'
+  EXPLORER: '/explorer',
+  SMTX: '/smtx'
 });
 
 module.exports = {

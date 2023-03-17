@@ -46,9 +46,11 @@ yarn start
 app.smartxwap TODOs
 Before
 - ~~Set the logo.~~
-- Manifest set-up
+- ~~Manifest set-up~~
 - ~~Improve the mobile UI.~~
 - ~~Improve the background (e.g. gradient or SVG)~~
+- ~~Update `PRIMARY_COLOR` & "#29abe2" to the primary color.~~
+- ~~Update `SECONDARY_COLOR` to the secondary color.~~
 - Add a menu with main page links (future feature releases).
 - Add a tradingview chart for the token.
 - Add a footer with social media links. e.g. https://www.bitdao.io
@@ -56,4 +58,5 @@ Before
 - Add https://www.bitdao.io hero text animation.
 On launch
 - Set `TOKEN_CONTRACT_ADDRESS` to the correct address.
+- Set `UNISWAP_V2_PAIR_ADDRESS` to the correct address.
 - Handle `MEMO: display for a launch show`.

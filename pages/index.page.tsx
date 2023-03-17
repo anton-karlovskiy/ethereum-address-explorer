@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import clsx from 'clsx';
 
-import LiFiMechanism from './LiFiMechanism';
+import LiFiMechanism from '../components/LiFiMechanism';
 import PageTitle from 'parts/PageTitle';
 import Banner from 'parts/Banner';
 import PageLayoutWrapper from 'parts/PageLayoutWrapper';
@@ -11,7 +11,7 @@ import {
   PAGE_MAIN_CONTENT_WIDTH_CLASSES
 } from 'utils/constants/styles';
 
-const EthereumAddressExplorer: NextPage = () => {
+const Xwap: NextPage = () => {
   return (
     <PageLayoutWrapper>
       <Banner>
@@ -29,4 +29,4 @@ const EthereumAddressExplorer: NextPage = () => {
   );
 };
 
-export default EthereumAddressExplorer;
+export default Xwap;

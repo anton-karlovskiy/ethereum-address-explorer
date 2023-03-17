@@ -40,7 +40,7 @@ const RESOURCES: Array<{
   },
   {
     title: '$SMTX',
-    link: ''
+    link: PAGES.SMTX
   },
   // ray test touch >
   {

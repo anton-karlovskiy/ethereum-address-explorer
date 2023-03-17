@@ -11,6 +11,10 @@ const nextConfig = {
       use: ['@svgr/webpack']
     });
 
+    // RE: https://github.com/Uniswap/widgets/issues/404#issuecomment-1404275119
+    // TODO: it does not work
+    // config.resolve.alias['@uniswap/conedison'] = '@uniswap/conedison/dist';
+
     return config;
   },
   pageExtensions: ['page.tsx', 'page.ts'],

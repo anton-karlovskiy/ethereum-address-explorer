@@ -3,12 +3,12 @@ import type { LiFiWidget } from '@lifi/widget';
 import dynamic from 'next/dynamic';
 import { useInterval } from 'react-use';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { TOKEN_CONTRACT_ADDRESS, PRIMARY_COLOR, SECONDARY_COLOR } from 'config/launch';
+
 const DELAY = process.env.NEXT_PUBLIC_LIFI_ERASE_DELAY || null; // TODO: update it to 100 when production
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const TOKEN_CONTRACT_ADDRESS = '0xba98c0fbebc892f5b07a42b0febd606913ebc981';
-
-const LiFiWidgetDynamic = dynamic(
+const DynamicLiFiWidget = dynamic(
   () => import('@lifi/widget').then(module => module.LiFiWidget) as any,
   {
     ssr: false
@@ -34,7 +34,7 @@ const LiFiMechanism = () => {
   );
 
   return (
-    <LiFiWidgetDynamic
+    <DynamicLiFiWidget
       config={{
         // tokens: {
         //   featured: [
@@ -65,8 +65,8 @@ const LiFiMechanism = () => {
         },
         theme: {
           palette: {
-            primary: { main: '#29abe2' },
-            secondary: { main: '#1a1a1a' }
+            primary: { main: PRIMARY_COLOR },
+            secondary: { main: SECONDARY_COLOR }
           },
           shape: {
             borderRadius: 8,

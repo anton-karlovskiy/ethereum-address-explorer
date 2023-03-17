@@ -11,7 +11,7 @@ import {
   PAGE_MAIN_CONTENT_WIDTH_CLASSES
 } from 'utils/constants/styles';
 
-const EthereumAddressExplorer: NextPage = () => {
+const Explorer: NextPage = () => {
   return (
     <PageLayoutWrapper>
       <Banner>
@@ -29,4 +29,4 @@ const EthereumAddressExplorer: NextPage = () => {
   );
 };
 
-export default EthereumAddressExplorer;
+export default Explorer;
