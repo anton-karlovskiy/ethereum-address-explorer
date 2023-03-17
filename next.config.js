@@ -2,6 +2,8 @@
 
 const withTM = require('next-transpile-modules')(['@lifi/widget']);
 
+const { PAGES } = require('./utils/constants/links');
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -26,6 +28,15 @@ const nextConfig = {
       'static.alchemyapi.io',
       'token-icons.s3.amazonaws.com'
     ]
+  },
+  async redirects() {
+    return [
+      {
+        source: PAGES.HOME,
+        destination: PAGES.XWAP,
+        permanent: true
+      }
+    ];
   }
 };
 

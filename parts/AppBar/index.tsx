@@ -24,7 +24,7 @@ const RESOURCES: Array<{
   },
   {
     title: 'Xwap',
-    link: PAGES.HOME
+    link: PAGES.XWAP
   },
   {
     title: 'Lending',
@@ -32,6 +32,14 @@ const RESOURCES: Array<{
   },
   {
     title: 'Staking',
+    link: ''
+  },
+  {
+    title: 'Options',
+    link: ''
+  },
+  {
+    title: 'NFTs',
     link: ''
   },
   {
