@@ -44,4 +44,12 @@ yarn start
   * Favicon and open graph images (SUGGESTION)
 
 app.smartxwap TODOs
-- 
+Before
+- Manifest set-up
+- Improve the mobile UI.
+- Improve the background (e.g. gradient or SVG)
+- Add socials.
+- Add https://www.bitdao.io hero text animation.
+Ongoing
+- Set `TOKEN_CONTRACT_ADDRESS` to the correct address.
+- Handle `MEMO: display for a launch show`.

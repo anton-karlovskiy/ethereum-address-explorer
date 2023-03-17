@@ -16,8 +16,8 @@ const RESOURCES: Array<{
   link: string;
 }> = [
   {
-    title: 'Portfolio',
-    link: PAGES.ETHEREUM_ADDRESS_EXPLORER
+    title: 'Explorer',
+    link: PAGES.EXPLORER
   }
 ];
 
