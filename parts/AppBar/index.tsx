@@ -23,8 +23,8 @@ const RESOURCES: Array<{
     link: ''
   },
   {
-    title: 'BTC bridge',
-    link: ''
+    title: 'Xwap',
+    link: PAGES.HOME
   },
   {
     title: 'Lending',
