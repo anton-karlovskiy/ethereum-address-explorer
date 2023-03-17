@@ -15,6 +15,34 @@ const RESOURCES: Array<{
   title: string;
   link: string;
 }> = [
+  // ray test touch <
+  // TODO: disable for future feature release
+  // TODO: add icons
+  {
+    title: 'Dashboard',
+    link: ''
+  },
+  {
+    title: 'BTC bridge',
+    link: ''
+  },
+  {
+    title: 'Lending',
+    link: ''
+  },
+  {
+    title: 'Staking',
+    link: ''
+  },
+  {
+    title: 'Portfolio',
+    link: ''
+  },
+  {
+    title: '$SMTX',
+    link: ''
+  },
+  // ray test touch >
   {
     title: 'Explorer',
     link: PAGES.EXPLORER

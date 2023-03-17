@@ -49,8 +49,11 @@ Before
 - Manifest set-up
 - ~~Improve the mobile UI.~~
 - ~~Improve the background (e.g. gradient or SVG)~~
-- Add socials.
+- Add a menu with main page links (future feature releases).
+- Add a tradingview chart for the token.
+- Add a footer with social media links. e.g. https://www.bitdao.io
+- Add a token pie chart. e.g. https://www.bitdao.io
 - Add https://www.bitdao.io hero text animation.
-Ongoing
+On launch
 - Set `TOKEN_CONTRACT_ADDRESS` to the correct address.
 - Handle `MEMO: display for a launch show`.
