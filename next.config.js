@@ -33,7 +33,7 @@ const nextConfig = {
     return [
       {
         source: PAGES.HOME,
-        destination: PAGES.XWAP,
+        destination: PAGES.SWAP,
         permanent: true
       }
     ];

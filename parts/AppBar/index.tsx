@@ -23,8 +23,8 @@ const RESOURCES: Array<{
     link: ''
   },
   {
-    title: 'Xwap',
-    link: PAGES.XWAP
+    title: 'Swap',
+    link: PAGES.SWAP
   },
   {
     title: 'Lending',
@@ -47,8 +47,8 @@ const RESOURCES: Array<{
     link: ''
   },
   {
-    title: '$SMTX',
-    link: PAGES.SMTX
+    title: '$XLINK',
+    link: PAGES.XLINK
   },
   // ray test touch >
   {

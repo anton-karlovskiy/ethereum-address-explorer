@@ -12,6 +12,7 @@
         "commitlint",
         "Concretica",
         "conedison",
+        "Crosslink",
         "dedup",
         "DEXTOOLS",
         "Ecofund",
@@ -57,6 +58,8 @@
         "wagmi",
         "Workstream",
         "workstreams",
+        "xlink",
+        "XLINX",
         "Xwap"
     ]
 }

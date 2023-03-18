@@ -40,10 +40,10 @@ const LiFiMechanism = () => {
         //   featured: [
         //     {
         //       address: TOKEN_CONTRACT_ADDRESS,
-        //       symbol: 'SMTX',
+        //       symbol: 'XLINK',
         //       decimals: 18,
         //       chainId: 1,
-        //       name: 'SmartXwap',
+        //       name: 'Crosslink',
         //       logoURI: '/images/featured-token-logo.png'
         //     }
         //   ]

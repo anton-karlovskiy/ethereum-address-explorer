@@ -12,13 +12,13 @@ import {
   PAGE_MAIN_CONTENT_WIDTH_CLASSES
 } from 'utils/constants/styles';
 
-const CHART_TITLE = '$SMTX Trading Chart (SMTX/ETH)';
+const CHART_TITLE = '$XLINK Trading Chart (XLINK/ETH)';
 
-const SMTX: NextPage = () => {
+const XLINK: NextPage = () => {
   return (
     <PageLayoutWrapper>
       <Banner>
-        <PageTitle>$SMTX</PageTitle>
+        <PageTitle>$XLINK</PageTitle>
       </Banner>
       <PageMainContentWrapper
         className={clsx(
@@ -59,4 +59,4 @@ const SMTX: NextPage = () => {
   );
 };
 
-export default SMTX;
+export default XLINK;

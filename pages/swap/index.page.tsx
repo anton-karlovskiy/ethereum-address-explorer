@@ -11,11 +11,11 @@ import {
   PAGE_MAIN_CONTENT_WIDTH_CLASSES
 } from 'utils/constants/styles';
 
-const Xwap: NextPage = () => {
+const Swap: NextPage = () => {
   return (
     <PageLayoutWrapper>
       <Banner>
-        <PageTitle>Xwap</PageTitle>
+        <PageTitle>Swap</PageTitle>
       </Banner>
       <PageMainContentWrapper
         className={clsx(
@@ -29,4 +29,4 @@ const Xwap: NextPage = () => {
   );
 };
 
-export default Xwap;
+export default Swap;

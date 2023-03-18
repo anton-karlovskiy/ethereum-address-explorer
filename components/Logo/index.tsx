@@ -1,6 +1,6 @@
 import CustomRouterLink, { Props as CustomRouterLinkProps } from 'components/UI/CustomRouterLink';
 import { PAGES } from 'utils/constants/links';
-import Image from 'next/image';
+import LogoIcon from 'assets/images/logo.svg';
 
 type Props = Omit<CustomRouterLinkProps, 'href' | 'children'>;
 
@@ -9,10 +9,8 @@ const Logo = (props: Props) => {
     <CustomRouterLink
       href={PAGES.HOME}
       {...props}>
-      <Image
-        alt='SmartXwap Logo'
-        src='/images/logo-with-title.png'
-        width={150}
+      <LogoIcon
+        width={58}
         height={50} />
     </CustomRouterLink>
   );
