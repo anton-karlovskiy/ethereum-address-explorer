@@ -18,34 +18,34 @@ const RESOURCES: Array<{
   // ray test touch <
   // TODO: disable for future feature release
   // TODO: add icons
-  {
-    title: 'Dashboard',
-    link: ''
-  },
+  // {
+  //   title: 'Dashboard',
+  //   link: ''
+  // },
   {
     title: 'Swap',
     link: PAGES.SWAP
   },
-  {
-    title: 'Lending',
-    link: ''
-  },
-  {
-    title: 'Staking',
-    link: ''
-  },
-  {
-    title: 'Options',
-    link: ''
-  },
-  {
-    title: 'NFTs',
-    link: ''
-  },
-  {
-    title: 'Portfolio',
-    link: ''
-  },
+  // {
+  //   title: 'Lending',
+  //   link: ''
+  // },
+  // {
+  //   title: 'Staking',
+  //   link: ''
+  // },
+  // {
+  //   title: 'Options',
+  //   link: ''
+  // },
+  // {
+  //   title: 'NFTs',
+  //   link: ''
+  // },
+  // {
+  //   title: 'Portfolio',
+  //   link: ''
+  // },
   {
     title: '$XLINK',
     link: PAGES.XLINK
