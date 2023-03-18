@@ -5,6 +5,9 @@ import {
   Main,
   NextScript
 } from 'next/document';
+import clsx from 'clsx';
+
+import { DARK_BACKGROUND_COLOR } from 'config/launch';
 
 const META_DESCRIPTION =
   // eslint-disable-next-line max-len
@@ -121,7 +124,11 @@ class MyDocument extends Document {
             href='https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap'
             rel='stylesheet' /> */}
         </Head>
-        <body className='bg-[#f0f4f5]'>
+        <body
+          className={clsx(
+            DARK_BACKGROUND_COLOR,
+            'text-[#b2bac2]'
+          )}>
           <Main />
           <NextScript />
         </body>

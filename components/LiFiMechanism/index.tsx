@@ -48,7 +48,7 @@ const LiFiMechanism = () => {
         //     }
         //   ]
         // }, // MEMO: display for a launch show
-        appearance: 'light', // MEMO: update to auto for a launch show
+        appearance: 'dark', // MEMO: update to auto for a launch show
         disableAppearance: true, // MEMO: display for a launch show
         disableI18n: true, // MEMO: display for a launch show
         languages: {
@@ -56,7 +56,7 @@ const LiFiMechanism = () => {
           allow: ['en']
         }, // MEMO: display for a launch show
         containerStyle: {
-          border: `1px solid rgb(234, 234, 234)`,
+          border: '1px solid #c2e0ff14',
           borderRadius: '6px',
           width: 560,
           height: 640,

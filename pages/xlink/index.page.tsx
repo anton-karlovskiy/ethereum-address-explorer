@@ -3,7 +3,6 @@ import clsx from 'clsx';
 
 import UniswapMechanism from 'components/UniswapMechanism';
 import PageTitle from 'parts/PageTitle';
-import Banner from 'parts/Banner';
 import PageLayoutWrapper from 'parts/PageLayoutWrapper';
 import PageMainContentWrapper from 'parts/PageMainContentWrapper';
 import { UNISWAP_V2_PAIR_ADDRESS, DEXTOOLS_CHART_ENABLED } from 'config/launch';
@@ -17,15 +16,13 @@ const CHART_TITLE = '$XLINK Trading Chart (XLINK/ETH)';
 const XLINK: NextPage = () => {
   return (
     <PageLayoutWrapper>
-      <Banner>
-        <PageTitle>$XLINK</PageTitle>
-      </Banner>
       <PageMainContentWrapper
         className={clsx(
           'mx-auto',
           LAYOUT_SIDE_PADDING_CLASSES,
           PAGE_MAIN_CONTENT_WIDTH_CLASSES
         )}>
+        <PageTitle>$XLINK</PageTitle>
         <div
           className={clsx(
             'space-y-20',

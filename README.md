@@ -51,6 +51,9 @@ Before
 - Improve the background (e.g. gradient or SVG)
 - Update `PRIMARY_COLOR` & "#29abe2" to the primary color.
 - Update `SECONDARY_COLOR` to the secondary color.
+- Update "#c2e0ff14" for border color.
+- Update "#0a1929" for background color.
+- Update "#b2bac2" for text color.
 - Whitelist bridges.
 - Whitelist exchanges.
 - Add a menu with main page links (future feature releases).

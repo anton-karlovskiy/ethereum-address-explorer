@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
-import { Theme, lightTheme } from '@uniswap/widgets';
+import { Theme, darkTheme } from '@uniswap/widgets';
 import '@uniswap/widgets/fonts.css';
 
 import { TOKEN_CONTRACT_ADDRESS, PRIMARY_COLOR } from 'config/launch';
@@ -17,12 +17,12 @@ const DynamicSwapWidget = dynamic(
 );
 
 const myLightTheme: Theme = {
-  ...lightTheme, // Extend the lightTheme
+  ...darkTheme, // Extend the lightTheme
   accent: PRIMARY_COLOR,
-  primary: '#000000',
+  primary: 'white',
   // secondary: SECONDARY_COLOR,
-  container: '#fff',
-  module: '#f0f0f0',
+  container: '#121212',
+  module: '#212121',
   borderRadius: 4,
   fontFamily: 'Inter',
   tokenColorExtraction: true
@@ -35,7 +35,7 @@ const UniswapMechanism = () => {
   return (
     <DynamicSwapWidget
       width={400}
-      className='border border-[#e5e7eb] !rounded-[6px]'
+      className='border border-[#c2e0ff14] !rounded-[6px]'
       theme={myLightTheme}
       defaultInputTokenAddress={NATIVE}
       defaultInputAmount={0.25}
