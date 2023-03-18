@@ -7,8 +7,6 @@ import {
 } from 'next/document';
 import clsx from 'clsx';
 
-import { DARK_BACKGROUND_COLOR } from 'config/launch';
-
 const META_DESCRIPTION =
   // eslint-disable-next-line max-len
   'Breaking down cross-chain barriers for seamless DeFi trading. Empowering traders with lightning-fast swaps at unbeatable rates and with AI trade helper.';
@@ -126,7 +124,7 @@ class MyDocument extends Document {
         </Head>
         <body
           className={clsx(
-            DARK_BACKGROUND_COLOR,
+            'bg-[#0a1929]',
             'text-[#b2bac2]'
           )}>
           <Main />

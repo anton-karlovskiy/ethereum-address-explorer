@@ -8,7 +8,6 @@ import clsx from 'clsx';
 
 import Logo from 'components/Logo';
 import CustomRouterLink from 'components/UI/CustomRouterLink';
-import { DARK_BACKGROUND_COLOR } from 'config/launch';
 import { LAYOUT_SIDE_PADDING_CLASSES } from 'utils/constants/styles';
 import { PAGES } from 'utils/constants/links';
 
@@ -97,7 +96,7 @@ const AppBar = ({
             'z-customAppBar',
             'border-b',
             'border-[#c2e0ff14]',
-            DARK_BACKGROUND_COLOR
+            'bg-[#0a1929]'
           )}>
           <div
             className={clsx(
@@ -105,7 +104,7 @@ const AppBar = ({
               {
                 [clsx(
                   MOBILE_NAVIGATION_UI_X_MARGIN_CLASS,
-                  DARK_BACKGROUND_COLOR
+                  'bg-[#0a1929]'
                 )]: open
               },
               // This CSS is only necessary on desktop view
