@@ -36,18 +36,18 @@ const LiFiMechanism = () => {
   return (
     <DynamicLiFiWidget
       config={{
-        // tokens: {
-        //   featured: [
-        //     {
-        //       address: TOKEN_CONTRACT_ADDRESS,
-        //       symbol: 'XLINK',
-        //       decimals: 18,
-        //       chainId: 1,
-        //       name: 'Crosslink',
-        //       logoURI: '/images/featured-token-logo.png'
-        //     }
-        //   ]
-        // }, // MEMO: display for a launch show
+        tokens: {
+          featured: [
+            {
+              address: TOKEN_CONTRACT_ADDRESS,
+              symbol: 'XLINK',
+              decimals: 18,
+              chainId: 1,
+              name: 'Crosslink',
+              logoURI: '/images/featured-token-logo.png'
+            }
+          ]
+        }, // MEMO: display for a launch show
         appearance: 'dark', // MEMO: update to auto for a launch show
         disableAppearance: true, // MEMO: display for a launch show
         disableI18n: true, // MEMO: display for a launch show
