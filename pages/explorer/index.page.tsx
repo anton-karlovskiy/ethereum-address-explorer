@@ -5,16 +5,17 @@ import PageTitle from 'parts/PageTitle';
 import Banner from 'parts/Banner';
 import PageLayoutWrapper from 'parts/PageLayoutWrapper';
 import PageMainContentWrapper from 'parts/PageMainContentWrapper';
+import Portfolio from 'components/demos/Portfolio';
 import {
   LAYOUT_SIDE_PADDING_CLASSES,
   PAGE_MAIN_CONTENT_WIDTH_CLASSES
 } from 'utils/constants/styles';
 
-const Home: NextPage = () => {
+const Explorer: NextPage = () => {
   return (
     <PageLayoutWrapper>
       <Banner>
-        <PageTitle>Let&apos;s go!</PageTitle>
+        <PageTitle>Explorer</PageTitle>
       </Banner>
       <PageMainContentWrapper
         className={clsx(
@@ -22,9 +23,10 @@ const Home: NextPage = () => {
           LAYOUT_SIDE_PADDING_CLASSES,
           PAGE_MAIN_CONTENT_WIDTH_CLASSES
         )}>
+        <Portfolio />
       </PageMainContentWrapper>
     </PageLayoutWrapper>
   );
 };
 
-export default Home;
+export default Explorer;

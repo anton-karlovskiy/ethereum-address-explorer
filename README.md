@@ -42,3 +42,24 @@ yarn start
 - Prepare notes for nice-to-have things.
   * pagination for displaying a lot of tokens (SUGGESTION)
   * Favicon and open graph images (SUGGESTION)
+
+app.smartxwap TODOs
+Before
+- ~~Set the logo.~~
+- ~~Manifest set-up~~
+- ~~Improve the mobile UI.~~
+- ~~Improve the background (e.g. gradient or SVG)~~
+- ~~Update `PRIMARY_COLOR` & "#29abe2" to the primary color.~~
+- ~~Update `SECONDARY_COLOR` to the secondary color.~~
+- Whitelist bridges.
+- Whitelist exchanges.
+- Add a menu with main page links (future feature releases).
+- Add a tradingview chart for the token.
+- Add a footer with social media links. e.g. https://www.bitdao.io
+- Add a home page. e.g. https://app.uniswap.org/#/?intro=true
+- Add a token pie chart. e.g. https://www.bitdao.io
+- Add https://www.bitdao.io hero text animation.
+On launch
+- Set `TOKEN_CONTRACT_ADDRESS` to the correct address.
+- Set `UNISWAP_V2_PAIR_ADDRESS` to the correct address.
+- Handle `MEMO: display for a launch show`.

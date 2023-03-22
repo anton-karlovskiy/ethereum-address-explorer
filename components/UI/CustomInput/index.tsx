@@ -23,7 +23,7 @@ const CustomInput = React.forwardRef<Ref, Props>(({
       'text-base',
       BORDER_CLASSES,
       'shadow-sm',
-      'rounded-md',
+      'rounded',
       'placeholder-gray-300',
       className
     )}
