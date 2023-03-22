@@ -15,8 +15,8 @@ const CustomInput = React.forwardRef<Ref, Props>(({
     className={clsx(
       styles.customInput,
       'focus:ring',
-      'focus:border-green-300',
-      'focus:ring-green-200',
+      'focus:border-primary-300',
+      'focus:ring-primary-200',
       'focus:ring-opacity-50',
       'block',
       'w-full',
@@ -25,6 +25,9 @@ const CustomInput = React.forwardRef<Ref, Props>(({
       'shadow-sm',
       'rounded',
       'placeholder-gray-300',
+      'bg-transparent',
+      'border',
+      'border-[#c2e0ff14]',
       className
     )}
     {...rest} />

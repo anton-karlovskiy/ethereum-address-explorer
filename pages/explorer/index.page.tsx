@@ -2,7 +2,6 @@ import type { NextPage } from 'next';
 import clsx from 'clsx';
 
 import PageTitle from 'parts/PageTitle';
-import Banner from 'parts/Banner';
 import PageLayoutWrapper from 'parts/PageLayoutWrapper';
 import PageMainContentWrapper from 'parts/PageMainContentWrapper';
 import Portfolio from 'components/demos/Portfolio';
@@ -14,15 +13,13 @@ import {
 const Explorer: NextPage = () => {
   return (
     <PageLayoutWrapper>
-      <Banner>
-        <PageTitle>Explorer</PageTitle>
-      </Banner>
       <PageMainContentWrapper
         className={clsx(
           'mx-auto',
           LAYOUT_SIDE_PADDING_CLASSES,
           PAGE_MAIN_CONTENT_WIDTH_CLASSES
         )}>
+        <PageTitle>Explorer</PageTitle>
         <Portfolio />
       </PageMainContentWrapper>
     </PageLayoutWrapper>

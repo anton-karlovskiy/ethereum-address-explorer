@@ -5,6 +5,7 @@ import {
   Main,
   NextScript
 } from 'next/document';
+import clsx from 'clsx';
 
 const META_DESCRIPTION =
   // eslint-disable-next-line max-len
@@ -58,7 +59,7 @@ class MyDocument extends Document {
           {/* Primary Meta Tags */}
           <meta
             name='title'
-            content='SmartXwap' />
+            content='Crosslink' />
           <meta
             name='description'
             content={META_DESCRIPTION} />
@@ -69,16 +70,16 @@ class MyDocument extends Document {
             content='website' />
           <meta
             property='og:url'
-            content='https://smartxwap.xyz' />
+            content='https://xlinkprotocol.xyz' />
           <meta
             property='og:title'
-            content='SmartXwap' />
+            content='Crosslink' />
           <meta
             property='og:description'
             content={META_DESCRIPTION} />
           <meta
             property='og:image'
-            content='https://app.smartxwap.xyz/smartxwap-meta-image.png' />
+            content='https://app.xlinkprotocol.xyz/xlinkprotocol-meta-image.png' />
           <meta
             property='og:image:width'
             content='800' />
@@ -92,16 +93,16 @@ class MyDocument extends Document {
             content='summary_large_image' />
           <meta
             property='twitter:url'
-            content='https://smartxwap.xyz' />
+            content='https://xlinkprotocol.xyz' />
           <meta
             property='twitter:title'
-            content='SmartXwap' />
+            content='Crosslink' />
           <meta
             property='twitter:description'
             content={META_DESCRIPTION} />
           <meta
             property='twitter:image'
-            content='https://app.smartxwap.xyz/smartxwap-meta-image.png' />
+            content='https://app.xlinkprotocol.xyz/xlinkprotocol-meta-image.png' />
           {/* MEMO: inspired by https://nextjs.org/docs/basic-features/font-optimization */}
           {/* MEMO: inspired by https://nextjs.org/docs/messages/google-font-display */}
           {/* EN */}
@@ -121,7 +122,11 @@ class MyDocument extends Document {
             href='https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap'
             rel='stylesheet' /> */}
         </Head>
-        <body className='bg-[#f0f4f5]'>
+        <body
+          className={clsx(
+            'bg-[#0a1929]',
+            'text-[#b2bac2]'
+          )}>
           <Main />
           <NextScript />
         </body>

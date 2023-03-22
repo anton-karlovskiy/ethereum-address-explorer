@@ -36,27 +36,27 @@ const LiFiMechanism = () => {
   return (
     <DynamicLiFiWidget
       config={{
-        // tokens: {
-        //   featured: [
-        //     {
-        //       address: TOKEN_CONTRACT_ADDRESS,
-        //       symbol: 'SMTX',
-        //       decimals: 18,
-        //       chainId: 1,
-        //       name: 'SmartXwap',
-        //       logoURI: '/images/featured-token-logo.png'
-        //     }
-        //   ]
-        // }, // MEMO: display for a launch show
-        appearance: 'light', // MEMO: update to auto for a launch show
-        disableAppearance: true, // MEMO: display for a launch show
-        disableI18n: true, // MEMO: display for a launch show
-        languages: {
-          default: 'en',
-          allow: ['en']
+        tokens: {
+          featured: [
+            {
+              address: TOKEN_CONTRACT_ADDRESS,
+              symbol: 'XLINK',
+              decimals: 18,
+              chainId: 1,
+              name: 'Crosslink',
+              logoURI: '/images/featured-token-logo.png'
+            }
+          ]
         }, // MEMO: display for a launch show
+        // appearance: 'dark', // MEMO: update to auto for a launch show
+        // disableAppearance: true, // MEMO: display for a launch show
+        // disableI18n: true, // MEMO: display for a launch show
+        // languages: {
+        //   default: 'en',
+        //   allow: ['en']
+        // }, // MEMO: display for a launch show
         containerStyle: {
-          border: `1px solid rgb(234, 234, 234)`,
+          border: '1px solid #c2e0ff14',
           borderRadius: '6px',
           width: 560,
           height: 640,

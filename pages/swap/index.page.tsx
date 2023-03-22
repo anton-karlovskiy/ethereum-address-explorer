@@ -3,7 +3,6 @@ import clsx from 'clsx';
 
 import LiFiMechanism from 'components/LiFiMechanism';
 import PageTitle from 'parts/PageTitle';
-import Banner from 'parts/Banner';
 import PageLayoutWrapper from 'parts/PageLayoutWrapper';
 import PageMainContentWrapper from 'parts/PageMainContentWrapper';
 import {
@@ -11,22 +10,20 @@ import {
   PAGE_MAIN_CONTENT_WIDTH_CLASSES
 } from 'utils/constants/styles';
 
-const Xwap: NextPage = () => {
+const Swap: NextPage = () => {
   return (
     <PageLayoutWrapper>
-      <Banner>
-        <PageTitle>Xwap</PageTitle>
-      </Banner>
       <PageMainContentWrapper
         className={clsx(
           'mx-auto',
           LAYOUT_SIDE_PADDING_CLASSES,
           PAGE_MAIN_CONTENT_WIDTH_CLASSES
         )}>
+        <PageTitle>Swap</PageTitle>
         <LiFiMechanism />
       </PageMainContentWrapper>
     </PageLayoutWrapper>
   );
 };
 
-export default Xwap;
+export default Swap;

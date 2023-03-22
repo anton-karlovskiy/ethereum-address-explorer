@@ -18,37 +18,37 @@ const RESOURCES: Array<{
   // ray test touch <
   // TODO: disable for future feature release
   // TODO: add icons
+  // {
+  //   title: 'Dashboard',
+  //   link: ''
+  // },
   {
-    title: 'Dashboard',
-    link: ''
+    title: 'Swap',
+    link: PAGES.SWAP
   },
+  // {
+  //   title: 'Lending',
+  //   link: ''
+  // },
+  // {
+  //   title: 'Staking',
+  //   link: ''
+  // },
+  // {
+  //   title: 'Options',
+  //   link: ''
+  // },
+  // {
+  //   title: 'NFTs',
+  //   link: ''
+  // },
+  // {
+  //   title: 'Portfolio',
+  //   link: ''
+  // },
   {
-    title: 'Xwap',
-    link: PAGES.XWAP
-  },
-  {
-    title: 'Lending',
-    link: ''
-  },
-  {
-    title: 'Staking',
-    link: ''
-  },
-  {
-    title: 'Options',
-    link: ''
-  },
-  {
-    title: 'NFTs',
-    link: ''
-  },
-  {
-    title: 'Portfolio',
-    link: ''
-  },
-  {
-    title: '$SMTX',
-    link: PAGES.SMTX
+    title: '$XLINK',
+    link: PAGES.XLINK
   },
   // ray test touch >
   {
@@ -94,7 +94,9 @@ const AppBar = ({
             'right-0',
             'left-0',
             'z-customAppBar',
-            'bg-white'
+            'border-b',
+            'border-[#c2e0ff14]',
+            'bg-[#0a1929]'
           )}>
           <div
             className={clsx(
@@ -102,7 +104,7 @@ const AppBar = ({
               {
                 [clsx(
                   MOBILE_NAVIGATION_UI_X_MARGIN_CLASS,
-                  'bg-white'
+                  'bg-[#0a1929]'
                 )]: open
               },
               // This CSS is only necessary on desktop view
@@ -112,7 +114,7 @@ const AppBar = ({
               'sm:ease-in-out',
               {
                 [clsx(
-                  'sm:bg-white',
+                  'sm:bg-[#0a1929]',
                   'sm:shadow-[0px_0px_12px_rgba(0,0,0,0.15)]',
                   'sm:backdrop-blur-[20px]'
                 )]: isScrollAtTheTop === false
