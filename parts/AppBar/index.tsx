@@ -6,56 +6,15 @@ import {
 } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 
-import Logo from 'components/Logo';
+import BlockchainLogo from 'components/BlockchainLogo';
 import CustomRouterLink from 'components/UI/CustomRouterLink';
 import { LAYOUT_SIDE_PADDING_CLASSES } from 'utils/constants/styles';
-import { PAGES } from 'utils/constants/links';
 
+// TODO: not used for now
 const RESOURCES: Array<{
   title: string;
   link: string;
-}> = [
-  // ray test touch <
-  // TODO: disable for future feature release
-  // TODO: add icons
-  // {
-  //   title: 'Dashboard',
-  //   link: ''
-  // },
-  {
-    title: 'Swap',
-    link: PAGES.SWAP
-  },
-  // {
-  //   title: 'Lending',
-  //   link: ''
-  // },
-  // {
-  //   title: 'Staking',
-  //   link: ''
-  // },
-  // {
-  //   title: 'Options',
-  //   link: ''
-  // },
-  // {
-  //   title: 'NFTs',
-  //   link: ''
-  // },
-  // {
-  //   title: 'Portfolio',
-  //   link: ''
-  // },
-  {
-    title: '$XLINK',
-    link: PAGES.XLINK
-  },
-  // ray test touch >
-  {
-    title: 'Explorer',
-    link: PAGES.EXPLORER
-  }
-];
+}> = [];
 
 interface Props extends React.ComponentPropsWithRef<'div'> {
   appBarHeight: number;
@@ -93,10 +52,7 @@ const AppBar = ({
             'top-0',
             'right-0',
             'left-0',
-            'z-customAppBar',
-            'border-b',
-            'border-[#c2e0ff14]',
-            'bg-[#0a1929]'
+            'z-customAppBar'
           )}>
           <div
             className={clsx(
@@ -104,7 +60,7 @@ const AppBar = ({
               {
                 [clsx(
                   MOBILE_NAVIGATION_UI_X_MARGIN_CLASS,
-                  'bg-[#0a1929]'
+                  'bg-white'
                 )]: open
               },
               // This CSS is only necessary on desktop view
@@ -114,7 +70,7 @@ const AppBar = ({
               'sm:ease-in-out',
               {
                 [clsx(
-                  'sm:bg-[#0a1929]',
+                  'sm:bg-white',
                   'sm:shadow-[0px_0px_12px_rgba(0,0,0,0.15)]',
                   'sm:backdrop-blur-[20px]'
                 )]: isScrollAtTheTop === false
@@ -141,7 +97,7 @@ const AppBar = ({
                   'items-center',
                   'sm:w-full'
                 )}>
-                <Logo activeClassName='' />
+                <BlockchainLogo activeClassName='' />
                 <div
                   className={clsx(
                     'hidden',
@@ -152,7 +108,6 @@ const AppBar = ({
                   {RESOURCES.map(item => {
                     return (
                       <CustomRouterLink
-                        className='font-bold'
                         activeClassName=''
                         key={item.title}
                         href={item.link}>
@@ -208,12 +163,6 @@ const AppBar = ({
               {RESOURCES.map(item => {
                 return (
                   <CustomRouterLink
-                    className={clsx(
-                      '!px-4',
-                      '!py-3',
-                      'font-bold',
-                      'block'
-                    )}
                     activeClassName=''
                     key={item.title}
                     href={item.link}>

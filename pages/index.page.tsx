@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import PageTitle from 'parts/PageTitle';
 import PageLayoutWrapper from 'parts/PageLayoutWrapper';
 import PageMainContentWrapper from 'parts/PageMainContentWrapper';
+import Portfolio from 'components/demos/Portfolio';
 import {
   LAYOUT_SIDE_PADDING_CLASSES,
   PAGE_MAIN_CONTENT_WIDTH_CLASSES
@@ -18,7 +19,8 @@ const Home: NextPage = () => {
           LAYOUT_SIDE_PADDING_CLASSES,
           PAGE_MAIN_CONTENT_WIDTH_CLASSES
         )}>
-        <PageTitle>Let&apos;s go!</PageTitle>
+        <PageTitle>Ethereum Address Explorer</PageTitle>
+        <Portfolio />
       </PageMainContentWrapper>
     </PageLayoutWrapper>
   );

@@ -40,14 +40,14 @@ const PortfolioTable = ({
           <CustomTh>
             Symbol
             <span
-              className={clsx('text-[#b2bac2]', 'hidden', 'md:inline')}>
+              className={clsx('text-black/50', 'hidden', 'md:inline')}>
               ,&nbsp;Name
             </span>
           </CustomTh>
           <CustomTh className='md:text-center'>
             Amount
             <span
-              className={clsx('text-[#b2bac2]', 'hidden', 'md:inline')}>
+              className={clsx('text-black/50', 'hidden', 'md:inline')}>
               ,&nbsp;Percentage
             </span>
           </CustomTh>
@@ -86,7 +86,7 @@ const PortfolioTable = ({
                     width={24} />
                   <span
                     className={clsx(
-                      'text-[#b2bac2]'
+                      'text-black'
                     )}>
                     {item.symbol}
                   </span>
@@ -94,7 +94,7 @@ const PortfolioTable = ({
                 <span
                   className={clsx(
                     'ml-5',
-                    'text-[#b2bac2]',
+                    'text-black/50',
                     'hidden',
                     'md:inline'
                   )}>
@@ -112,7 +112,7 @@ const PortfolioTable = ({
                   )}>
                   <span
                     className={clsx(
-                      'text-[#b2bac2]',
+                      'text-black',
                       'block',
                       'text-right',
                       'md:inline'
@@ -125,7 +125,7 @@ const PortfolioTable = ({
                   <span
                     className={clsx(
                       'ml-5',
-                      'text-[#b2bac2]',
+                      'text-black/50',
                       'hidden',
                       'md:inline-block',
                       'w-12'

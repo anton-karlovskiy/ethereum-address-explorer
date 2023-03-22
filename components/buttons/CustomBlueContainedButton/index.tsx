@@ -16,7 +16,7 @@ interface CustomProps {
 }
 
 type Ref = HTMLButtonElement;
-const CustomContainedButton = React.forwardRef<Ref, Props>(({
+const CustomGreenContainedButton = React.forwardRef<Ref, Props>(({
   className,
   children,
   startIcon,
@@ -34,8 +34,8 @@ const CustomContainedButton = React.forwardRef<Ref, Props>(({
       className={clsx(
         'focus:outline-none',
         'focus:ring-1',
-        'focus:border-primary-300',
-        'focus:ring-primary-200',
+        'focus:border-green-300',
+        'focus:ring-green-200',
         'focus:ring-opacity-50',
 
         'border',
@@ -48,8 +48,8 @@ const CustomContainedButton = React.forwardRef<Ref, Props>(({
         ) : clsx(
           TEXT_CLASSES,
           'dark:!text-black', // Suppressing white text color in this specific edge case
-          'bg-primary-400',
-          'hover:bg-primary-500'
+          'bg-green-400',
+          'hover:bg-green-500'
         ),
 
         'rounded',
@@ -79,8 +79,8 @@ const CustomContainedButton = React.forwardRef<Ref, Props>(({
     </CustomButtonBase>
   );
 });
-CustomContainedButton.displayName = 'CustomContainedButton';
+CustomGreenContainedButton.displayName = 'CustomGreenContainedButton';
 
 export type Props = CustomProps & CustomButtonBaseProps;
 
-export default CustomContainedButton;
+export default CustomGreenContainedButton;

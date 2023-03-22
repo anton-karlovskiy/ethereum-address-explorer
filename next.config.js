@@ -1,9 +1,4 @@
 /** @type {import('next').NextConfig} */
-
-const withTM = require('next-transpile-modules')(['@lifi/widget']);
-
-const { PAGES } = require('./utils/constants/links');
-
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -12,10 +7,6 @@ const nextConfig = {
       test: /\.svg$/,
       use: ['@svgr/webpack']
     });
-
-    // RE: https://github.com/Uniswap/widgets/issues/404#issuecomment-1404275119
-    // TODO: it does not work
-    // config.resolve.alias['@uniswap/conedison'] = '@uniswap/conedison/dist';
 
     return config;
   },
@@ -28,16 +19,7 @@ const nextConfig = {
       'static.alchemyapi.io',
       'token-icons.s3.amazonaws.com'
     ]
-  },
-  async redirects() {
-    return [
-      {
-        source: PAGES.HOME,
-        destination: PAGES.SWAP,
-        permanent: true
-      }
-    ];
   }
 };
 
-module.exports = withTM(nextConfig);
+module.exports = nextConfig;

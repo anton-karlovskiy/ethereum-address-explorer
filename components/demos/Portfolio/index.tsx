@@ -64,7 +64,7 @@ const Portfolio = () => {
               'flex',
               'justify-center'
             )}>
-            <EllipsisLoader dotClassName='bg-primary-500' />
+            <EllipsisLoader dotClassName='bg-green-500' />
           </div>
         ) : (
           <>

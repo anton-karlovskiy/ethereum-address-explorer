@@ -2,7 +2,7 @@ import { isAddress } from '@ethersproject/address';
 import clsx from 'clsx';
 import { useForm } from 'react-hook-form';
 
-import CustomContainedButton from 'components/buttons/CustomContainedButton';
+import CustomGreenContainedButton from 'components/buttons/CustomBlueContainedButton';
 import CustomInput from 'components/UI/CustomInput';
 
 const ETHEREUM_ACCOUNT_ADDRESS = 'ethereum-account-address';
@@ -69,7 +69,7 @@ const PortfolioForm = ({
             },
             validate: value => validateForm(value)
           })} />
-        <CustomContainedButton
+        <CustomGreenContainedButton
           className={clsx(
             'flex-shrink-0',
             'w-28'
@@ -77,7 +77,7 @@ const PortfolioForm = ({
           type='submit'
           pending={isInitialLoading}>
           Submit
-        </CustomContainedButton>
+        </CustomGreenContainedButton>
       </div>
       <p
         role='alert'

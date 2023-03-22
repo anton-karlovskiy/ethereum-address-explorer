@@ -7,10 +7,7 @@ const QUERY_PARAMETERS = Object.freeze({
 });
 
 const PAGES = Object.freeze({
-  HOME: '/',
-  EXPLORER: '/explorer',
-  XLINK: '/xlink',
-  SWAP: '/swap'
+  HOME: '/'
 });
 
 module.exports = {

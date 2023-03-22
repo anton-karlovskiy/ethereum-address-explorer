@@ -12,7 +12,7 @@ const PageTitle = ({
         'sm:text-left',
         'sm:text-5xl',
         'font-bold',
-        'text-white',
+        'text-fiord-800',
         className
       )}>
       {children}

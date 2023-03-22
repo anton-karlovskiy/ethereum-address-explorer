@@ -23,7 +23,7 @@ const CustomTbody = ({
 }: React.ComponentPropsWithoutRef<'tbody'>) => (
   <Tbody
     className={clsx(
-      'text-[#b2bac2]',
+      'text-stormGray-900',
       'text-sm',
       className
     )}
@@ -79,7 +79,7 @@ const CustomThead = ({
 }: React.ComponentPropsWithoutRef<'thead'>) => (
   <Thead
     className={clsx(
-      'md:text-[#b2bac2]',
+      'md:text-fiord-700',
       'font-medium',
       'text-xs',
       className
