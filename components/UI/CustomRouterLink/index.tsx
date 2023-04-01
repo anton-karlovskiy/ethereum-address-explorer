@@ -1,10 +1,12 @@
 import * as React from 'react';
 import Link, { LinkProps } from 'next/link';
 import { useRouter } from 'next/router';
+import clsx from 'clsx';
 
 import CustomAnchorLink from 'components/UI/CustomAnchorLink';
 
 interface Props extends LinkProps {
+  disabled?: boolean;
   className?: string;
   activeClassName: string;
   children: React.ReactNode;
@@ -12,6 +14,7 @@ interface Props extends LinkProps {
 
 // MEMO: inspired by https://github.com/vercel/next.js/blob/canary/examples/active-class-name/components/ActiveLink.tsx
 const CustomRouterLink = ({
+  disabled,
   href,
   className,
   activeClassName,
@@ -58,12 +61,29 @@ const CustomRouterLink = ({
     computedClassName
   ]);
 
+  if (disabled) {
+    return (
+      <CustomAnchorLink
+        className={clsx(
+          computedClassName,
+          'pointer-events-none',
+          'text-gray-400',
+          'text-opacity-50'
+        )}>
+        {children}
+      </CustomAnchorLink>
+    );
+  }
+
   return (
     <Link
       href={href}
       passHref
       {...rest}>
-      <CustomAnchorLink className={computedClassName}>{children}</CustomAnchorLink>
+      <CustomAnchorLink
+        className={computedClassName}>
+        {children}
+      </CustomAnchorLink>
     </Link>
   );
 };

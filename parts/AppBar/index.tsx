@@ -14,13 +14,14 @@ import { PAGES } from 'utils/constants/links';
 const RESOURCES: Array<{
   title: string;
   link: string;
+  disabled?: boolean;
 }> = [
-  // ray test touch <
   // TODO: disable for future feature release
   // TODO: add icons
   {
     title: 'Dashboard',
-    link: ''
+    link: '',
+    disabled: true
   },
   {
     title: 'Xwap',
@@ -28,29 +29,33 @@ const RESOURCES: Array<{
   },
   {
     title: 'Lending',
-    link: ''
+    link: '',
+    disabled: true
   },
   {
     title: 'Staking',
-    link: ''
+    link: '',
+    disabled: true
   },
   {
     title: 'Options',
-    link: ''
+    link: '',
+    disabled: true
   },
   {
     title: 'NFTs',
-    link: ''
+    link: '',
+    disabled: true
   },
   {
     title: 'Portfolio',
-    link: ''
+    link: '',
+    disabled: true
   },
   {
     title: '$SMTX',
     link: PAGES.SMTX
   },
-  // ray test touch >
   {
     title: 'Explorer',
     link: PAGES.EXPLORER
@@ -150,6 +155,7 @@ const AppBar = ({
                   {RESOURCES.map(item => {
                     return (
                       <CustomRouterLink
+                        disabled={item.disabled}
                         className='font-bold'
                         activeClassName=''
                         key={item.title}
@@ -206,6 +212,7 @@ const AppBar = ({
               {RESOURCES.map(item => {
                 return (
                   <CustomRouterLink
+                    disabled={item.disabled}
                     className={clsx(
                       '!px-4',
                       '!py-3',
