@@ -7,6 +7,7 @@ type Props = Omit<CustomRouterLinkProps, 'href' | 'children'>;
 const Logo = (props: Props) => {
   return (
     <CustomRouterLink
+      className='flex'
       href={PAGES.HOME}
       {...props}>
       <Image
