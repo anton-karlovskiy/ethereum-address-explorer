@@ -12,13 +12,13 @@ import {
   PAGE_MAIN_CONTENT_WIDTH_CLASSES
 } from 'utils/constants/styles';
 
-const CHART_TITLE = '$SMTX Trading Chart (SMTX/ETH)';
+const CHART_TITLE = '$IXW Trading Chart (IXW/ETH)';
 
-const SMTX: NextPage = () => {
+const NativeToken: NextPage = () => {
   return (
     <PageLayoutWrapper>
       <Banner>
-        <PageTitle>$SMTX</PageTitle>
+        <PageTitle>$IXW</PageTitle>
       </Banner>
       <PageMainContentWrapper
         className={clsx(
@@ -59,4 +59,4 @@ const SMTX: NextPage = () => {
   );
 };
 
-export default SMTX;
+export default NativeToken;

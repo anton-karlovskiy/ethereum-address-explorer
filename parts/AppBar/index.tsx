@@ -53,8 +53,8 @@ const RESOURCES: Array<{
     disabled: true
   },
   {
-    title: '$SMTX',
-    link: PAGES.SMTX
+    title: '$IXW',
+    link: PAGES.NATIVE_TOKEN
   },
   {
     title: 'Explorer',

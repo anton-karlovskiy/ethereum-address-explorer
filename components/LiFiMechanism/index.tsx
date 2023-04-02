@@ -40,7 +40,7 @@ const LiFiMechanism = () => {
         //   featured: [
         //     {
         //       address: TOKEN_CONTRACT_ADDRESS,
-        //       symbol: 'SMTX',
+        //       symbol: 'IXW',
         //       decimals: 18,
         //       chainId: 1,
         //       name: 'IntelliXwap',

@@ -9,7 +9,7 @@ const QUERY_PARAMETERS = Object.freeze({
 const PAGES = Object.freeze({
   HOME: '/',
   EXPLORER: '/explorer',
-  SMTX: '/smtx',
+  NATIVE_TOKEN: '/native-token',
   XWAP: '/xwap'
 });
 
