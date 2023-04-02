@@ -58,7 +58,7 @@ class MyDocument extends Document {
           {/* Primary Meta Tags */}
           <meta
             name='title'
-            content='SmartXwap' />
+            content='IntelliXwap' />
           <meta
             name='description'
             content={META_DESCRIPTION} />
@@ -69,16 +69,16 @@ class MyDocument extends Document {
             content='website' />
           <meta
             property='og:url'
-            content='https://smartxwap.xyz' />
+            content='https://intellixwap.xyz' />
           <meta
             property='og:title'
-            content='SmartXwap' />
+            content='IntelliXwap' />
           <meta
             property='og:description'
             content={META_DESCRIPTION} />
           <meta
             property='og:image'
-            content='https://app.smartxwap.xyz/smartxwap-meta-image.png' />
+            content='https://app.intellixwap.xyz/intellixwap-meta-image.png' />
           <meta
             property='og:image:width'
             content='800' />
@@ -92,16 +92,16 @@ class MyDocument extends Document {
             content='summary_large_image' />
           <meta
             property='twitter:url'
-            content='https://smartxwap.xyz' />
+            content='https://intellixwap.xyz' />
           <meta
             property='twitter:title'
-            content='SmartXwap' />
+            content='IntelliXwap' />
           <meta
             property='twitter:description'
             content={META_DESCRIPTION} />
           <meta
             property='twitter:image'
-            content='https://app.smartxwap.xyz/smartxwap-meta-image.png' />
+            content='https://app.intellixwap.xyz/intellixwap-meta-image.png' />
           {/* MEMO: inspired by https://nextjs.org/docs/basic-features/font-optimization */}
           {/* MEMO: inspired by https://nextjs.org/docs/messages/google-font-display */}
           {/* EN */}

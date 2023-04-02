@@ -11,7 +11,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
-        <title>SmartXwap</title>
+        <title>IntelliXwap</title>
       </Head>
       <ReactQueryProvider>
         <WagmiProvider>

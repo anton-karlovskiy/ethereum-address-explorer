@@ -43,7 +43,7 @@ const LiFiMechanism = () => {
         //       symbol: 'SMTX',
         //       decimals: 18,
         //       chainId: 1,
-        //       name: 'SmartXwap',
+        //       name: 'IntelliXwap',
         //       logoURI: '/images/featured-token-logo.png'
         //     }
         //   ]
