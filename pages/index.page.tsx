@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   return (
     <PageLayoutWrapper>
       <Banner>
-        <PageTitle>Let&apos;s go!</PageTitle>
+        <PageTitle>Let&apos;s go with AI!</PageTitle>
       </Banner>
       <PageMainContentWrapper
         className={clsx(
