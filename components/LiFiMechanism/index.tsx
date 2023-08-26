@@ -48,9 +48,9 @@ const LiFiMechanism = () => {
         //     }
         //   ]
         // }, // MEMO: display for a launch show
-        appearance: 'light', // MEMO: update to auto for a launch show
-        disableAppearance: true, // MEMO: display for a launch show
-        disableI18n: true, // MEMO: display for a launch show
+        appearance: 'light', // MEMO: display for a launch show (update to auto for a launch show)
+        // disableAppearance: true, // MEMO: display for a launch show
+        // disableI18n: true, // MEMO: display for a launch show
         languages: {
           default: 'en',
           allow: ['en']
