@@ -59,7 +59,9 @@ Before
 - Add a home page. e.g. https://app.uniswap.org/#/?intro=true
 - Add a token pie chart. e.g. https://www.bitdao.io
 - Add https://www.bitdao.io hero text animation.
-On launch
+
+
+## On Launch
 - Set `TOKEN_CONTRACT_ADDRESS` to the correct address.
 - Set `UNISWAP_V2_PAIR_ADDRESS` to the correct address.
 - Handle `MEMO: display for a launch show`.
