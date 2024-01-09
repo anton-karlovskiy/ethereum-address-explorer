@@ -40,7 +40,7 @@ const LiFiMechanism = () => {
         //   featured: [
         //     {
         //       address: TOKEN_CONTRACT_ADDRESS,
-        //       symbol: 'IXW',
+        //       symbol: 'BYTE',
         //       decimals: 18,
         //       chainId: 1,
         //       name: 'ByteSync',

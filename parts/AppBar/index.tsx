@@ -53,7 +53,7 @@ const RESOURCES: Array<{
     disabled: true
   },
   {
-    title: '$IXW',
+    title: '$BYTE',
     link: PAGES.NATIVE_TOKEN
   },
   {
