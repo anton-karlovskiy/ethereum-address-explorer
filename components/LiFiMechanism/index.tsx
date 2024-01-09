@@ -43,7 +43,7 @@ const LiFiMechanism = () => {
         //       symbol: 'IXW',
         //       decimals: 18,
         //       chainId: 1,
-        //       name: 'IntelliXwap',
+        //       name: 'ByteSync',
         //       logoURI: '/images/featured-token-logo.png'
         //     }
         //   ]

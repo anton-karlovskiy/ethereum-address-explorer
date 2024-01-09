@@ -11,7 +11,7 @@ const Logo = (props: Props) => {
       href={PAGES.HOME}
       {...props}>
       <Image
-        alt='IntelliXwap Logo'
+        alt='ByteSync Logo'
         src='/images/logo-with-title.png'
         width={150}
         height={50} />

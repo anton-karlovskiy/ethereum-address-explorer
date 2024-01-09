@@ -58,7 +58,7 @@ class MyDocument extends Document {
           {/* Primary Meta Tags */}
           <meta
             name='title'
-            content='IntelliXwap' />
+            content='ByteSync' />
           <meta
             name='description'
             content={META_DESCRIPTION} />
@@ -69,16 +69,16 @@ class MyDocument extends Document {
             content='website' />
           <meta
             property='og:url'
-            content='https://intellixwap.xyz' />
+            content='https://app.bytesync.live' />
           <meta
             property='og:title'
-            content='IntelliXwap' />
+            content='ByteSync' />
           <meta
             property='og:description'
             content={META_DESCRIPTION} />
           <meta
             property='og:image'
-            content='https://app.intellixwap.xyz/intellixwap-meta-image.png' />
+            content='https://app.bytesync.live/meta-image.png' />
           <meta
             property='og:image:width'
             content='800' />
@@ -92,16 +92,16 @@ class MyDocument extends Document {
             content='summary_large_image' />
           <meta
             property='twitter:url'
-            content='https://intellixwap.xyz' />
+            content='https://app.bytesync.live' />
           <meta
             property='twitter:title'
-            content='IntelliXwap' />
+            content='ByteSync' />
           <meta
             property='twitter:description'
             content={META_DESCRIPTION} />
           <meta
             property='twitter:image'
-            content='https://app.intellixwap.xyz/intellixwap-meta-image.png' />
+            content='https://app.bytesync.live/meta-image.png' />
           {/* MEMO: inspired by https://nextjs.org/docs/basic-features/font-optimization */}
           {/* MEMO: inspired by https://nextjs.org/docs/messages/google-font-display */}
           {/* EN */}

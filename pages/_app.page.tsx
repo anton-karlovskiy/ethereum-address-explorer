@@ -11,7 +11,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
-        <title>IntelliXwap</title>
+        <title>ByteSync</title>
       </Head>
       <ReactQueryProvider>
         <WagmiProvider>
