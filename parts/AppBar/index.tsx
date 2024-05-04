@@ -53,7 +53,7 @@ const RESOURCES: Array<{
     disabled: true
   },
   {
-    title: '$BYTE',
+    title: '$XPL',
     link: PAGES.NATIVE_TOKEN
   },
   {

@@ -11,7 +11,7 @@ const Logo = (props: Props) => {
       href={PAGES.HOME}
       {...props}>
       <Image
-        alt='ByteSync Logo'
+        alt='CrossPulse Logo'
         src='/images/logo-with-title.png'
         width={150}
         height={50} />

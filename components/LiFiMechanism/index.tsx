@@ -40,10 +40,10 @@ const LiFiMechanism = () => {
         //   featured: [
         //     {
         //       address: TOKEN_CONTRACT_ADDRESS,
-        //       symbol: 'BYTE',
+        //       symbol: 'XPL',
         //       decimals: 18,
         //       chainId: 1,
-        //       name: 'ByteSync',
+        //       name: 'CrossPulse',
         //       logoURI: '/images/featured-token-logo.png'
         //     }
         //   ]

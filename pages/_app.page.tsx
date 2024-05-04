@@ -11,7 +11,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
-        <title>ByteSync</title>
+        <title>CrossPulse</title>
       </Head>
       <ReactQueryProvider>
         <WagmiProvider>

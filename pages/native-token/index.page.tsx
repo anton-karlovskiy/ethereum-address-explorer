@@ -12,13 +12,13 @@ import {
   PAGE_MAIN_CONTENT_WIDTH_CLASSES
 } from 'utils/constants/styles';
 
-const CHART_TITLE = '$BYTE Trading Chart (BYTE/ETH)';
+const CHART_TITLE = '$XPL Trading Chart (XPL/ETH)';
 
 const NativeToken: NextPage = () => {
   return (
     <PageLayoutWrapper>
       <Banner>
-        <PageTitle>$BYTE</PageTitle>
+        <PageTitle>$XPL</PageTitle>
       </Banner>
       <PageMainContentWrapper
         className={clsx(
