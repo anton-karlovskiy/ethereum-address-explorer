@@ -1,19 +1,22 @@
 import CustomRouterLink, { Props as CustomRouterLinkProps } from 'components/UI/CustomRouterLink';
 import { PAGES } from 'utils/constants/links';
-import BlockchainLogoIcon from 'assets/images/blockchain-logo.svg';
+import Image from 'next/image';
 
 type Props = Omit<CustomRouterLinkProps, 'href' | 'children'>;
 
-const BlockchainLogo = (props: Props) => {
+const Logo = (props: Props) => {
   return (
     <CustomRouterLink
+      className='flex'
       href={PAGES.HOME}
       {...props}>
-      <BlockchainLogoIcon
-        width={32}
-        height={32} />
+      <Image
+        alt='IntelliXwap Logo'
+        src='/images/logo-with-title.png'
+        width={150}
+        height={50} />
     </CustomRouterLink>
   );
 };
 
-export default BlockchainLogo;
+export default Logo;
