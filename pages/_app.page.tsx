@@ -11,7 +11,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
-        <title>Crosslink Protocol</title>
+        <title>PulseX Protocol</title>
       </Head>
       <ReactQueryProvider>
         <WagmiProvider>

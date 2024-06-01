@@ -17,9 +17,10 @@ const Logo = (props: Props) => {
       href={PAGES.HOME}
       {...props}>
       <LogoIcon
-        width={58}
-        height={50} />
-      <h2 className='text-2xl font-bold text-white'>Crosslink Protocol</h2>
+        width={80}
+        height={80}
+        viewBox='0 0 900 900' />
+      <h2 className='text-2xl font-bold text-white'>PulseX Protocol</h2>
     </CustomRouterLink>
   );
 };

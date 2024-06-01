@@ -43,7 +43,7 @@ const LiFiMechanism = () => {
               symbol: 'PLX',
               decimals: 18,
               chainId: 1,
-              name: 'Crosslink',
+              name: 'PulseX',
               logoURI: '/images/featured-token-logo.png'
             }
           ]
