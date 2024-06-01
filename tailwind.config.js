@@ -93,7 +93,20 @@ module.exports = {
         electricViolet: '#9747ff',
         azureRadiance: '#1a7eff',
         blueChill: '#15a0a3',
-        orange: '#f26a1d'
+        orange: '#f26a1d',
+        primary: {
+          50: '#f4fbfe',
+          100: '#eaf7fc',
+          200: '#caeaf8',
+          300: '#a9ddf3',
+          400: '#69c4eb',
+          500: '#29abe2',
+          600: '#259acb',
+          700: '#1f80aa',
+          800: '#196788',
+          900: '#14546f'
+        },
+        secondary: '#1a1a1a'
       }
     }
   },

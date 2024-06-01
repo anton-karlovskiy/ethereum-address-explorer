@@ -6,15 +6,61 @@ import {
 } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 
-import BlockchainLogo from 'components/BlockchainLogo';
+import Logo from 'components/Logo';
 import CustomRouterLink from 'components/UI/CustomRouterLink';
 import { LAYOUT_SIDE_PADDING_CLASSES } from 'utils/constants/styles';
+import { PAGES } from 'utils/constants/links';
 
-// TODO: not used for now
 const RESOURCES: Array<{
   title: string;
   link: string;
-}> = [];
+  disabled?: boolean;
+}> = [
+  // TODO: disable for future feature release
+  // TODO: add icons
+  {
+    title: 'Dashboard',
+    link: '',
+    disabled: true
+  },
+  {
+    title: 'Xwap',
+    link: PAGES.XWAP
+  },
+  {
+    title: 'Lending',
+    link: '',
+    disabled: true
+  },
+  {
+    title: 'Staking',
+    link: '',
+    disabled: true
+  },
+  {
+    title: 'Options',
+    link: '',
+    disabled: true
+  },
+  {
+    title: 'NFTs',
+    link: '',
+    disabled: true
+  },
+  {
+    title: 'Portfolio',
+    link: '',
+    disabled: true
+  },
+  {
+    title: '$BYTE',
+    link: PAGES.NATIVE_TOKEN
+  },
+  {
+    title: 'Explorer',
+    link: PAGES.EXPLORER
+  }
+];
 
 interface Props extends React.ComponentPropsWithRef<'div'> {
   appBarHeight: number;
@@ -52,7 +98,8 @@ const AppBar = ({
             'top-0',
             'right-0',
             'left-0',
-            'z-customAppBar'
+            'z-customAppBar',
+            'bg-white'
           )}>
           <div
             className={clsx(
@@ -97,7 +144,7 @@ const AppBar = ({
                   'items-center',
                   'sm:w-full'
                 )}>
-                <BlockchainLogo activeClassName='' />
+                <Logo activeClassName='' />
                 <div
                   className={clsx(
                     'hidden',
@@ -108,6 +155,8 @@ const AppBar = ({
                   {RESOURCES.map(item => {
                     return (
                       <CustomRouterLink
+                        disabled={item.disabled}
+                        className='font-bold'
                         activeClassName=''
                         key={item.title}
                         href={item.link}>
@@ -163,6 +212,13 @@ const AppBar = ({
               {RESOURCES.map(item => {
                 return (
                   <CustomRouterLink
+                    disabled={item.disabled}
+                    className={clsx(
+                      '!px-4',
+                      '!py-3',
+                      'font-bold',
+                      'block'
+                    )}
                     activeClassName=''
                     key={item.title}
                     href={item.link}>
