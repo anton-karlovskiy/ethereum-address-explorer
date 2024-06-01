@@ -70,7 +70,10 @@ const PAGE_MAIN_CONTENT_WIDTH_CLASSES = clsx(
   'max-w-7xl'
 );
 
-const PAGE_MAIN_CONTENT_Y_PADDING_CLASSES = 'py-10';
+const PAGE_MAIN_CONTENT_Y_PADDING_CLASSES = clsx(
+  'pb-10',
+  'pt-32'
+);
 
 export {
   LAYOUT,
