@@ -40,7 +40,7 @@ const LiFiMechanism = () => {
           featured: [
             {
               address: TOKEN_CONTRACT_ADDRESS,
-              symbol: 'XLINK',
+              symbol: 'PLX',
               decimals: 18,
               chainId: 1,
               name: 'Crosslink',

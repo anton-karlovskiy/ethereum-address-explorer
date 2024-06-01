@@ -11,9 +11,9 @@ import {
   PAGE_MAIN_CONTENT_WIDTH_CLASSES
 } from 'utils/constants/styles';
 
-const CHART_TITLE = '$XLINK Trading Chart (XLINK/ETH)';
+const CHART_TITLE = '$PLX Trading Chart (PLX/ETH)';
 
-const XLINK: NextPage = () => {
+const Token: NextPage = () => {
   return (
     <PageLayoutWrapper>
       <PageMainContentWrapper
@@ -22,7 +22,7 @@ const XLINK: NextPage = () => {
           LAYOUT_SIDE_PADDING_CLASSES,
           PAGE_MAIN_CONTENT_WIDTH_CLASSES
         )}>
-        <PageTitle>$XLINK</PageTitle>
+        <PageTitle>$PLX</PageTitle>
         <div
           className={clsx(
             'space-y-20',
@@ -56,4 +56,4 @@ const XLINK: NextPage = () => {
   );
 };
 
-export default XLINK;
+export default Token;

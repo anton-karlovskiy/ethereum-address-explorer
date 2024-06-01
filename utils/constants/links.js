@@ -9,7 +9,7 @@ const QUERY_PARAMETERS = Object.freeze({
 const PAGES = Object.freeze({
   HOME: '/',
   EXPLORER: '/explorer',
-  XLINK: '/xlink',
+  TOKEN: '/token',
   SWAP: '/swap'
 });
 

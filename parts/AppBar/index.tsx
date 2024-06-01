@@ -47,8 +47,8 @@ const RESOURCES: Array<{
   //   link: ''
   // },
   {
-    title: '$XLINK',
-    link: PAGES.XLINK
+    title: '$PLX',
+    link: PAGES.TOKEN
   },
   // ray test touch >
   {
