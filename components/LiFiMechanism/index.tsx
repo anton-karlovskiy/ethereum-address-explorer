@@ -42,7 +42,7 @@ const LiFiMechanism = () => {
               address: TOKEN_CONTRACT_ADDRESS,
               symbol: 'PLX',
               decimals: 18,
-              chainId: 1,
+              chainId: 8453,
               name: 'PulseX',
               logoURI: '/images/featured-token-logo.png'
             }
