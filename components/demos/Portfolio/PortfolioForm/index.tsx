@@ -30,7 +30,7 @@ const PortfolioForm = ({
 
   const validateForm = (value: string): string | undefined => {
     if (!isAddress(value)) {
-      return 'Please enter a valid Ethereum account address.';
+      return 'Please enter a valid Base account address.';
     }
     return undefined;
   };
@@ -51,7 +51,7 @@ const PortfolioForm = ({
           'text-sm',
           'px-1.5'
         )}>
-        Ethereum account address
+        Base account address
       </label>
       <div
         className={clsx(
@@ -65,7 +65,7 @@ const PortfolioForm = ({
           {...register(ETHEREUM_ACCOUNT_ADDRESS, {
             required: {
               value: true,
-              message: 'Please enter an Ethereum account address.'
+              message: 'Please enter an Base account address.'
             },
             validate: value => validateForm(value)
           })} />
