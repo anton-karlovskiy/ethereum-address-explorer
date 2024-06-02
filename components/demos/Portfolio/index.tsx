@@ -80,7 +80,7 @@ const Portfolio = () => {
             ) : (
               fetchStatus === 'idle' && (
                 <p>
-                  Please submit an Base account address on which you want to see its portfolio.
+                  Please submit an Ethereum account address on which you want to see its portfolio.
                 </p>
               )
             )}
