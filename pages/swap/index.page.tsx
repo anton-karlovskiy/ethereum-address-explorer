@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import clsx from 'clsx';
 
+import LiFiMechanism from 'components/LiFiMechanism';
 import PageTitle from 'parts/PageTitle';
 import PageLayoutWrapper from 'parts/PageLayoutWrapper';
 import PageMainContentWrapper from 'parts/PageMainContentWrapper';
@@ -9,7 +10,7 @@ import {
   PAGE_MAIN_CONTENT_WIDTH_CLASSES
 } from 'utils/constants/styles';
 
-const Home: NextPage = () => {
+const Swap: NextPage = () => {
   return (
     <PageLayoutWrapper>
       <PageMainContentWrapper
@@ -18,10 +19,11 @@ const Home: NextPage = () => {
           LAYOUT_SIDE_PADDING_CLASSES,
           PAGE_MAIN_CONTENT_WIDTH_CLASSES
         )}>
-        <PageTitle>Let&apos;s go!</PageTitle>
+        <PageTitle>Swap</PageTitle>
+        <LiFiMechanism />
       </PageMainContentWrapper>
     </PageLayoutWrapper>
   );
 };
 
-export default Home;
+export default Swap;
