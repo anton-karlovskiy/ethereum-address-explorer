@@ -158,7 +158,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🔗 Links
 
 - **Original Task**: [GitHub Gist](https://gist.github.com/0xAsimetriq/36d23603807ecf03be1387ebaf2e7692)
-- **Live Demo**: [Deployed Application](https://your-deployment-url.com)
+- **Live Demo**: [Deployed Application](https://ethereum-address-explorer-demo.vercel.app)
 - **Storybook**: [Component Library](https://your-storybook-url.com)
 
 ## 🏷️ Keywords
